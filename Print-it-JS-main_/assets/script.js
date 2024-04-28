@@ -1,8 +1,11 @@
-let imgArrowLeft = document.querySelector('.arrow_left');
-console.log(imgArrowLeft)
+let sliderArrowLeft = document.querySelector('.arrow_left');
+console.log(sliderArrowLeft)
+sliderArrowLeft.addEventListener("click",() => {console.log("plic")});
 
-let imgArrowRight = document.querySelector('.arrow_right');
-console.log(imgArrowRight)
+let sliderArrowRight = document.querySelector('.arrow_right');
+console.log(sliderArrowRight)
+sliderArrowRight.addEventListener("click", () => {console.log("ploc")});
+
 
 
 
